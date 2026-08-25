@@ -1,6 +1,13 @@
-{:company/legal-name "Eskom Holdings SOC Ltd"
- :company/lei "3789001900ED06F65111"
- :company/jurisdiction "ZA"
- :company/website "https://www.eskom.co.za"
+{:company/contact-email "MediaDesk@eskom.co.za"
+ :company/gleif-note "registry facts from GLEIF (https://api.gleif.org/api/v1/lei-records/3789001900ED06F65111), retrieved 2026-08-25 by scripts/lei-gleif-ingest.cljs (GET only)"
  :company/isic-rev5 "3510"
- :company/contact-email "MediaDesk@eskom.co.za"}
+ :company/jurisdiction "ZA"
+ :company/legal-address "Megawatt Park, 2 Maxwell Drive, Sunninghill, 2157, Johannesburg, ZA-GP, ZA"
+ :company/legal-form-elf "R155"
+ :company/legal-jurisdiction "ZA"
+ :company/legal-name "Eskom Holdings SOC Ltd"
+ :company/lei "3789001900ED06F65111"
+ :company/lei-status "LAPSED"
+ :company/postal-address "Megawatt Park, 2 Maxwell Drive, Sunninghill, 2157, Johannesburg, ZA-GP, ZA"
+ :company/registration-number "2002/015527/30"
+ :company/website "https://www.eskom.co.za"}
