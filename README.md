@@ -27,6 +27,13 @@ AFRICA-UTIL-1, 2026-07-24/25).
 - `blueprint.edn` — machine-readable company identity record, including the public
   contact email sourced from the company's own Contact Information page.
 
+## Verifying the archive
+
+`docs/operator-quickstart.md` walks through checking the archive against its
+sources: `scripts/verify-facts.cljk` re-fetches every GLEIF page cited in
+`facts.edn` (exit `0` match / `1` drift / `3` could not run), and a one-line
+check recomputes the archived text's `:tos/sha256`.
+
 ## Design rationale
 
 See ADR-2607110300 and the worldwide-scope extension ledger
